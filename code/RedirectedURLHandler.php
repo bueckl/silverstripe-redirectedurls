@@ -20,7 +20,6 @@ class RedirectedURLHandler extends Extension {
 	 */
 	protected function arrayToLowercase($vars) {
 		$result = array();
-
 		foreach($vars as $k => $v) {
 			$result[strtolower($k)] = strtolower($v);
 		}
